@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Teaching CIS 706/801: Translator Design I &amp;amp; II
+The course teaches modern compiler techniques applied to general-purpose programming language. The goal of the course is to give students a working knowledge of the foundations, tools, and engineering approaches used in developing formal language translators. The emphasis is on the construction of compilers to position students to build translators for little languages in their careers.
+CIS 301: Logical Foundations of Programming" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://hatcliff.santoslab.org/teaching/" />
+
+
+    <title>
+        
+             :: John Hatcliff&#39;s Homepage 
+        
+    </title>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<link rel="stylesheet" href="https://hatcliff.santoslab.org/main.63bff92087267840203a6bfd0a840c0dd5acf394bc25564a176636fb6b987a82.css" integrity="sha256-Y7/5IIcmeEAgOmv9CoQMDdWs85S8JVZKF2Y2&#43;2uYeoI=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://hatcliff.santoslab.org/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hatcliff.santoslab.org/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hatcliff.santoslab.org/favicon-16x16.png">
+    <link rel="manifest" href="https://hatcliff.santoslab.org/site.webmanifest">
+    <link rel="mask-icon" href="https://hatcliff.santoslab.org/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://hatcliff.santoslab.org/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Teaching CIS 706/801: Translator Design I &amp; II
+The course teaches modern compiler techniques applied to general-purpose programming language. The goal of the course is to give students a working knowledge of the foundations, tools, and engineering approaches used in developing formal language translators. The emphasis is on the construction of compilers to position students to build translators for little languages in their careers.
+CIS 301: Logical Foundations of Programming">
+
+<meta itemprop="wordCount" content="249"><meta itemprop="image" content="https://hatcliff.santoslab.org"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hatcliff.santoslab.org"/>
+
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Teaching CIS 706/801: Translator Design I &amp; II
+The course teaches modern compiler techniques applied to general-purpose programming language. The goal of the course is to give students a working knowledge of the foundations, tools, and engineering approaches used in developing formal language translators. The emphasis is on the construction of compilers to position students to build translators for little languages in their careers.
+CIS 301: Logical Foundations of Programming"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://hatcliff.santoslab.org/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark"> </span>
+            <span class="logo__text">Home</span>
+            <span class="logo__cursor" style=
+                  "visibility:hidden;
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://hatcliff.santoslab.org/funding/">Funding</a></li><li><a href="https://hatcliff.santoslab.org/projects/">Projects</a></li><li><a href="https://hatcliff.santoslab.org/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main aria-role="main">
+        <div>
+            <br/><br/>
+            <center>
+    <table style="text-align: left; " border-color="" border="0" cellpadding="2" cellspacing="2">
+    <tbody>
+    <tr>
+    <td style="vertical-align: top; padding: 0 5px 0 0;">
+    <img src="https://hatcliff.santoslab.org/img/Hatcliff-bio-photo.jpg" width="230px" alt="John Hatcliff" align="left" />
+    </td>
+    <td style="vertical-align: top;"><br/>
+    <font style="font-weight: bold;" size="+2">John Hatcliff</font><br/>
+    <font style="font-weight: bold; font-style: italic;" size="+1">University Distinguished Professor</font><br/>
+    <font style="font-style: italic;" >Lucas-Rathbone Professor of Engineering</font><br/>
+    <a href="http://www.santoslab.org/">SAnToS Lab</a>, <a href="http://cs.ksu.edu/">Department of Computer Science</a>, <a href="http://www.ksu.edu/">Kansas State University</a> <br/>
+    2160 <a href="http://www.engg.ksu.edu/phaseiv/">Engineering Hall</a>, <a href="https://goo.gl/maps/qHsXwu5XAhT2">1701D Platt Street</a>, <a href="http://www.ci.manhattan.ks.us/">Manhattan</a>, <a href="http://www.kansas.gov/">KS</a> <a href="https://www.google.com/maps/place/Manhattan,+KS+66506">66506</a>, USA<br/>
+    Phone/Fax: +1 (785) 532-6350/7353<br/>
+    E-mail: hatcliff 'at' ksu 'dot' edu</a><br/>
+    <br/>
+    <a href="https://dblp.org/pid/52/5739.html">Bib</a>
+    &nbsp; <a href="https://scholar.google.com/citations?user=B56JLs0AAAAJ&hl=en">Citations</a>
+    &nbsp; <a href="???">Bio</a>
+    &nbsp; <a href="http://people.cs.ksu.edu/~hatcliff/Hatcliff-CV.pdf">CV</a><br/>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+</center>
+
+        </div>
+    </main>
+    <main class="post">
+
+        <article>
+            <h2 class="post-title"><a href="https://hatcliff.santoslab.org/teaching/"></a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <h3 id="teaching">Teaching</h3>
+<hr>
+<p><a href="http://compilers.santoslab.org/">CIS 706/801: Translator Design I &amp; II</a></p>
+<blockquote>
+<p>The course teaches modern compiler techniques applied to general-purpose programming language. The goal of the course is to give students a working knowledge of the foundations, tools, and engineering approaches used in developing formal language translators. The emphasis is on the construction of compilers to position students to build translators for little languages in their careers.</p>
+</blockquote>
+<hr>
+<p><a href="http://f17.proglogics.santoslab.org/">CIS 301: Logical Foundations of Programming</a></p>
+<blockquote>
+<p>This course teaches the basic elements found in a formal logic including syntax for claims and rules for making deductions, as well as on how to judge if the rules are suitable in the sense that they only lead to claims that match the reality of the domain that are being reasoned. The focus will be on formal logics for reasoning about program behavior.</p>
+</blockquote>
+<hr>
+<p><a href="http://softwarearch.santoslab.org/">CIS 501: Software Architecture and Design</a></p>
+<blockquote>
+<p>This course is about designing and implementing component-based software systems using blueprints and architectural design patterns.</p>
+</blockquote>
+<hr>
+<p><a href="http://softwarespecs.santoslab.org/">CIS 771: Software Specifications</a></p>
+<blockquote>
+<p>The course teaches a collection of techniques that lie at the foundation of an approach to software development that can enable the construction of large highly reliable software. That foundation is specification of the precise meaning of the execution behavior of software. The techniques covered span the development process ranging from high-level semantic modeling, to system architecture design, and to coding and debugging.</p>
+</blockquote>
+<hr>
+<p>CIS 842: Specification and Verification of Reactive Systems</p>
+<blockquote>
+<p>This course studies various model-checking techniques with the goal of applying those techniques to real concurrent software systems.</p>
+</blockquote>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+<script type="text/javascript" src="https://hatcliff.santoslab.org/bundle.min.fb8aea4cfe2c67bdb3a859169f04f5b89012626f585389ff6b23fe2d3abe861228d6960eb74e4e8e4e5abb8abe367aeb4cf0aab17877e8b17c66380e907e9335.js" integrity="sha512-&#43;4rqTP4sZ72zqFkWnwT1uJASYm9YU4n/ayP&#43;LTq&#43;hhIo1pYOt05Ojk5au4q&#43;NnrrTPCqsXh36LF8ZjgOkH6TNQ=="></script>
+
+
+
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    </body>
+</html>
