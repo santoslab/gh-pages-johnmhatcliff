@@ -8,6 +8,15 @@
     <language>en-us</language><atom:link href="https://hatcliff.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://hatcliff.santoslab.org/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hatcliff.santoslab.org/bio/</guid>
+      <description>John Hatcliff &amp;ndash; Bio Sketch Bio Sketch - To be Completed</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://hatcliff.santoslab.org/funding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -17,6 +26,15 @@ Co-PI, with John Hatcliff (K-State PI); and Todd Carpenter (Lead PI) at Adventiu
 U.S. Air Force Research Laboratory (AFRL) Small Business Innovation Research (SBIR) Phase II. Project total: $749,957 (K-State&amp;rsquo;s portion: $347,000). Duration: May 2021 - April 2023.
 SIRFUR: Software Implementation from Rigorous Formal Usable Requirements
 K-State PI, with John Hatcliff (co-PI); and Todd Carpenter (Lead PI) at Adventium Labs.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hatcliff.santoslab.org/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hatcliff.santoslab.org/overview/</guid>
+      <description>Overview Current My current activities </description>
     </item>
     
     <item>
