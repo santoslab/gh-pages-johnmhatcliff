@@ -21,11 +21,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hatcliff.santoslab.org/funding/</guid>
-      <description>Funding MAILLE: Microkernal Application Information fLow with Logic-based Enforcement
-Co-PI, with John Hatcliff (K-State PI); and Todd Carpenter (Lead PI) at Adventium Labs.
+      <description>Recent Funding MAILLE: Microkernal Application Information fLow with Logic-based Enforcement
+John Hatcliff (K-State PI) with Robby (co-PI); and Todd Carpenter (Lead PI) at Adventium Labs.
 U.S. Air Force Research Laboratory (AFRL) Small Business Innovation Research (SBIR) Phase II. Project total: $749,957 (K-State&amp;rsquo;s portion: $347,000). Duration: May 2021 - April 2023.
 SIRFUR: Software Implementation from Rigorous Formal Usable Requirements
-K-State PI, with John Hatcliff (co-PI); and Todd Carpenter (Lead PI) at Adventium Labs.</description>
+John Hatcliff (K-State PI), with Robby (co-PI); and Todd Carpenter (Lead PI) at Adventium Labs.</description>
     </item>
     
     <item>
@@ -34,7 +34,8 @@ K-State PI, with John Hatcliff (co-PI); and Todd Carpenter (Lead PI) at Adventiu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hatcliff.santoslab.org/overview/</guid>
-      <description>Overview Current My current activities </description>
+      <description>Overview I&amp;rsquo;m a University Distinguished Professor and Lucas-Rathbone Professor of Engineering (brief bio sketch,full CV) in the Computer Science Department at Kansas State University, and (along with Professor Robby) I lead the laboratory for Specification, Analysis, and Transformation of Software (SAnToS). SAnToS aims to develop and mature technologies and tools for effective construction of high-confidence software systems.
+SAnToS Laboratory emphasizes a research methodology in which research advances are achieved by building robust tools that can be applied to and evaluated against real systems in the context of realistic development practices, and then using insights gained in these evaluations to guide future research directions and priorities.</description>
     </item>
     
     <item>
@@ -43,10 +44,8 @@ K-State PI, with John Hatcliff (co-PI); and Todd Carpenter (Lead PI) at Adventiu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hatcliff.santoslab.org/papers/</guid>
-      <description>Recent Papers Darren Cofer, Isaac Amundson, Junaid Babar, David Hardin, Konrad Slind, Perry Alexander, John Hatcliff, Robby, Gerwin Klein, Corey Lewis, Eric Mercer, John Shackleton: Cyberassured Systems Engineering at Scale. IEEE S&amp;amp;P: 2-14.
-Robby, John Hatcliff: Slang: The Sireum Programming Language. ISoLA 2021: 253-273. [presentation]
-John Hatcliff, Jason Belt, Robby, Todd Carpenter: HAMR: An AADL Multi-Platform Code Generation Toolset. ISoLA 2021: 274-295. [presentation]
-Hariharan Thiagarajan, John Hatcliff, Robby: Awas: An Information Flow and Error Propagation Analysis Framework for the AADL Modeling Language.</description>
+      <description>Recent Papers Jason Belt, John Hatcliff, Robby, John Shackleton, Jim Carciofini, Todd Carpenter, Eric Mercer, Isaac Amundson, Junaid Babar, Darren Cofer, David Hardin, Karl Hoech, Konrad Slind, Ihor Kuz, Kent Mcleod. &amp;ldquo;Model-Driven Development for the seL4 Microkernel Using the HAMR Framework&amp;rdquo;. Journal of Systems Architecture 134 (102789), January 2023.
+John Hatcliff, Jerome Hugues, Danielle Stewart, and Lutz Wrage. &amp;ldquo;Formalization of the AADL Run-Time Services&amp;rdquo;. 11th International Symposium On Leveraging Applications of Formal Methods, Verification and Validation” (ISoLA 2022) LNCS 13702.</description>
     </item>
     
     <item>
@@ -55,11 +54,8 @@ Hariharan Thiagarajan, John Hatcliff, Robby: Awas: An Information Flow and Error
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hatcliff.santoslab.org/projects/</guid>
-      <description>Projects Current Sireum &amp;ndash; A High Assurance System Engineering Platform Past Bandera &amp;ndash; a software model checker for concurrent Java programs
-Bogor &amp;ndash; a software model checking framework
-Cadena &amp;ndash; an Eclipse-based extensible integrated modeling and development framework for component-based systems
-JMLEclipse &amp;ndash; an Eclipse-based front-end for the Java Modeling Language (JML)
-MDCF</description>
+      <description>Projects Current HAMR - lead architect of HAMR (High-Assurance Modeling and Rapid engineering) - a model-driven development framework for high-assurance systems. HAMR is being used in several of US Department of Defense research projects (AFRL, US Army, DARPA). See one of my overview talks on HAMR
+Slang and Logika - I support my colleague Professor Robby, in the use and application of Slang (a high-assurance of Scala) and Logika (a highly automated and user-friendly code contract verification tool for Slang).</description>
     </item>
     
     <item>
@@ -68,9 +64,8 @@ MDCF</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hatcliff.santoslab.org/teaching/</guid>
-      <description>Teaching CIS 706/801: Translator Design I &amp;amp; II
-The course teaches modern compiler techniques applied to general-purpose programming language. The goal of the course is to give students a working knowledge of the foundations, tools, and engineering approaches used in developing formal language translators. The emphasis is on the construction of compilers to position students to build translators for little languages in their careers.
-CIS 301: Logical Foundations of Programming</description>
+      <description>Teaching CIS 301: Logical Foundations of Programming
+This course teaches the basic elements found in a formal logic including syntax for claims and rules for making deductions, as well as on how to judge if the rules are suitable in the sense that they only lead to claims that match the reality of the domain that are being reasoned. The focus will be on formal logics for reasoning about program behavior.</description>
     </item>
     
   </channel>
